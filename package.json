@@ -20,6 +20,8 @@
     },
     "dependencies": {
         "@inertiajs/vue3": "^3.0.3",
-        "typescript": "^6.0.3"
+        "qs-esm": "^8.0.1",
+        "typescript": "^6.0.3",
+        "ziggy-js": "^2.6.2"
     }
 }

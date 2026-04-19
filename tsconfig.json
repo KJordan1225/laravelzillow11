@@ -31,7 +31,7 @@
     "resources/js/**/*.ts",
     "resources/js/**/*.d.ts",
     "resources/js/**/*.vue"
-  ],
+, "resources/js/app.ts"  ],
 
   "exclude": [
     "node_modules",
