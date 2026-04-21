@@ -14,7 +14,7 @@ export default defineConfig({
                 base: null,
                 includeAbsolute: false,
             },
-        }),
+        }),        
     ],
     resolve: {
         alias: {
