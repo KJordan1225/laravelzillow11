@@ -20,21 +20,6 @@
         />
       </Link>
     </div>
-    <div>
-      <Link
-        :href="route('listing.edit', {listing: listing.id})"
-      >
-        Edit
-      </Link>
-    </div>
-    <div>
-      <Link
-        :href="route('listing.destroy', {listing: listing.id})"
-        method="DELETE" as="button"
-      >
-        Delete
-      </Link>
-    </div>
   </Box>
 </template>
 
@@ -46,7 +31,7 @@ import ListingSpace from '@/Components/ListingSpace.vue'
 import Price from '@/Components/Price.vue'
 import { useMonthlyPayment } from '@/Composables/useMonthlyPayment'
 
-const props = defineProps({listing: Object})
+const props = defineProps({ listing: Object })
 const { monthlyPayment } = useMonthlyPayment(
   props.listing.price, 2.5, 25,
 )

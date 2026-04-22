@@ -61,4 +61,6 @@ class User extends Authenticatable
             'by_user_id'
         );
     }
+
+    
 }
