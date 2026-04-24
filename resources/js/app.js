@@ -6,6 +6,9 @@ import { createInertiaApp } from '@inertiajs/vue3';
 import { ZiggyVue } from '../../vendor/tightenco/ziggy';
 import MainLayout from './Layouts/MainLayout.vue';
 
+import NProgress from 'nprogress'
+import 'nprogress/nprogress.css'
+
 const pages = import.meta.glob('./Pages/**/*.vue');
 
 createInertiaApp({

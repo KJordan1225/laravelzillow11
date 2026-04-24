@@ -19,8 +19,11 @@
         "vue": "^3.4.0"
     },
     "dependencies": {
+        "@inertiajs/inertia": "^0.11.1",
         "@inertiajs/vue3": "^3.0.3",
         "@tailwindcss/vite": "^4.2.2",
+        "lodash": "^4.18.1",
+        "nprogress": "^0.2.0",
         "qs-esm": "^8.0.1",
         "typescript": "^6.0.3",
         "ziggy-js": "^2.6.2"
